@@ -4,7 +4,7 @@ The DMX Inspector is an Arduino-based device that will read out the data being s
 ![Universe display](Case/pics/UniverseDisplay.jpg "Universe Display") ![Devices display](Case/pics/DevicesDisplay.jpg "Devices Display")
 
 This project consists of several pieces:
-* /Arduino: This is the project for the Arduino that does the actual work of listening to the DMX signal and driving the display. It relies on two libaries that must be installed in Arduino to communicate with the DMX hardware and the display:
+* /Arduino: This is the project for the Arduino that does the actual work of listening to the DMX signal and driving the display. It relies on two libaries that must be installed to Arduino to communicate with the DMX hardware and the display:
   * Conceptinetics library as updated for this work: Clone from https://github.com/johnseghersmsft/Conceptinetics_RDM
   * Nextion libary as modified: https://github.com/johnseghersmsft/ITEADLIB_Arduino_Nextion
   Find detailed [build instructions at the Arduino/DmxInspector README](Arduino/DmxInspector/README.md)

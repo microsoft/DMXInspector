@@ -56,7 +56,9 @@ Most of the nuts used in this build are held in place by hex depressions designe
 * Put a screw (one of the 10mm should work) through the hole, without the boards in place. Thread a nut onto the screw and then tighten it to pull the nut into the hole. After it's set in place, remove the screw.
 
 #### Corner Nuts
-The corners are a bit of a special case. They are designed to use 16mm flathead screws, but the case is much more than 16mm high. So the hex holes run almost the height of the case. As you can see in the ![cross section](pics/BezelScrewXSec.jpg "Cross section of corner screw mount) most of the hex column is wider than the very top of it. This is so you can easily push a nut up in the column and then draw it tight and snug into the top 3mm.
+The corners are a bit of a special case. They are designed to use 16mm flathead screws, but the case is much more than 16mm high. So the hex holes run almost the height of the case. As you can see in the cross section most of the hex column is wider than the very top of it. This is so you can easily push a nut up in the column and then draw it tight and snug into the top 3mm.
+
+![cross section](pics/BezelScrewXSec.jpg "Cross section of corner screw mount")
 
 This is where that long M3 screw is used as a tool. You'll want to use two long-ish screws for this step, one of the 25mm screws will work well for the other one. 
 
