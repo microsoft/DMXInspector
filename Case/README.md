@@ -76,16 +76,16 @@ There is a small piece of support modelled into the design between the holes for
 ![mouse bites](pics/MouseBites.gif "Mouse bites in support") 
 
 ### DMX Shield
-The DMX Shield is designed to select between Serial0 (the only serial port on an UNO) or IO Pins through the use of jumpers. We are using a third option, connecting to Serial1. The center pin of the TX and RX pins on the shield connect to the RS485 chip. We'll connect those via jumper wires to the TX1 and RX1 connections on the Arduino Mega. Be sure to match TX to TX1 and RX to RX1. Also set the other two jumpers both to the right side as shown in this picture.
+The DMX Shield is designed to select between Serial0 (the only serial port on an UNO) or IO Pins through the use of jumpers. We are using a third option, connecting to Serial1. The center pin of the TX and RX pins on the shield connect to the RS485 chip. We'll connect those via jumper wires to the TX1 and RX1 connections on the Arduino Mega. Be sure to match TX to TX1 and RX to RX1. Also set the other two jumpers both to the left side as shown in this picture.
 
  ![DMX Shield jumpers](pics/DMXSerialPortAndJumpers.jpg "DMX Serial port connections and option jumpers")
 
 Carefully insert the DMX Shield into the headers of the Arduino Mega. They mount into the headers on the end closest to the power and USB connectors, using the same signals as present on the Arduino UNO. Then mount it in the case.
 
 ### Mounting the Arduino and DMX Shield
-I found that fitting the board into place is easiest if you pre-position the 4 25mm screws through the DMX Shield, spacers, and Arduino but only flush with the Arduino board. Once in place, you won't be able to reach the spacers near the front of the board unless you have tiny fingers or bent-nose pliers. 
+I found that fitting the board into place is easiest if you pre-position the 4 25mm screws through the DMX Shield, spacers, and Arduino but only flush with the bottom of the Arduino board. Once in place, you won't be able to reach the spacers near the front of the board unless you have tiny fingers or bent-nose pliers. 
 
-Also, there is a pin from the power connector that is right in front of the hole on that side of the Arduino. I found that bending it over made an easier fit.
+Also, there is a pin from the power connector that is just in front of the hole on that side of the Arduino. I found that bending it over made an easier fit. Otherwise it hits the standoff for that screw.
 
 Tilt the board so the spring button of the female XLR connector goes through the hole first, then line up the USB connector with its hole in the case. Things are a little snug, but once in place the USB will stick through the case by about 4mm and the power connector will be flush with the case. Both of the XLR connectors will be just a little past the case as well.
 
@@ -106,7 +106,7 @@ Mount the breadboard on the back wall of the case and connect all of the wires.
 | Display +5V | Breadboard JP2 5V Vout | Regulated 5V to the display |
 | Display TX | Breadboard JP2 TX | Sends data **from** the display |
 | Display RX | Breadboard JP2 RX | Sends data **to** the display |
-| Display GND | Breadboard JP2 GND | Ground connectino to the display |
+| Display GND | Breadboard JP2 GND | Ground connection to the display |
 
 ### Bezel
 Lay the display on top of the corner supports. The case is a little longer than the display so there is room for the wires from the display connector to bend down. Thus the cable connection goes on the end toward the breadboard and the SD slot on the display faces the notch on the top of the case wall.
